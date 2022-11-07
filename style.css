@@ -1,0 +1,148 @@
+/*Removing basic styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Style for body*/
+body {
+    background-image: linear-gradient(rgb(96, 71, 128), rgb(83, 47, 121));
+    height: 100vh;
+}
+/*Styling fonts*/
+h1, p {
+  font-style: italic;
+}
+/*Style for container*/
+.container {
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(rgb(31, 110, 77), rgb(94, 160, 134));
+  text-align: center;
+  padding: 15px;
+}
+/*Style for inputfield*/
+input {
+  width: 80%;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  margin-right: 0%;
+  border-radius: 5px;
+}
+/*Style for list item container*/
+.item {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-left: 24px;
+  border-radius: 5px;
+}
+/*Style for list item*/
+li {
+  list-style: none;
+  flex: 4;
+  font-size: 23px;
+  margin-top: 12px;
+  text-align: left;
+  padding-left: 15px;
+  color: black;
+}
+/*Style for checked items*/
+.checked {
+  text-decoration: line-through;
+  width: 90%;
+  background-color: white;
+  list-style: none;
+  font-size: 23px;
+  color: black;
+  background-color: rgb(104, 104, 104);
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-left: 24px;
+  border-radius: 5px;
+}
+/*Style for delete button*/
+.deleteItem {
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(207, 213, 214);
+  border: none;
+}
+/*Style for check button*/
+.checkItem {
+  font-size: 25px;
+  margin: 5px;
+  margin-right: 2px;
+  border-radius: 5px;
+  background-color: rgb(207, 213, 214);
+  border: none;
+}
+/*Style for add button*/
+#add-item {
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(148, 232, 167);
+  border: none;
+}
+/*Style for remove-all button*/
+#remove-all {
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(207, 213, 214);
+  border: none;
+}
+/*Style for save-all button*/
+#save-all {
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(207, 213, 214);
+  border: none;
+}
+/*Style for add button hover*/
+#add-item:hover {
+  background-color: rgb(30, 163, 30);
+  color: white;
+  cursor: pointer;
+}
+/*Style for check button hover*/
+.checkItem:hover {
+  background-color: rgb(30, 163, 30);
+  color: white;
+  cursor: pointer;
+}
+/*Style for delete button hover*/
+.deleteItem:hover {
+  background-color: rgb(163, 30, 45);
+  color: white;
+  cursor: pointer;
+}
+/*Style for  buremove-all button hover*/
+#remove-all:hover {
+  background-color: rgb(163, 30, 45);
+  color: white;
+  cursor: pointer;
+}
+/*Style for save-all button hover*/
+#save-all:hover {
+  background-color: rgb(6, 106, 255);
+  color: white;
+  cursor: pointer;
+}
